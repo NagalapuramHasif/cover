@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 06.05.2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -32,9 +32,146 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SCIENCE</title>
+    <style>
+        .bookpage{
+
+            width: 450px;
+            height: 670px;
+            color:rgb(15, 13, 13);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 26px;
+            font-family: ' Arial, sans-serif';
+            background-image: url(7.png);
+            background-size: cover;
+        }
+            
+        
+        .insight{
+            color:rgb(216, 244, 4);
+            font-family: brush script;
+        }
+        
+        
+        .font{
+            width:170px;
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color:rgb(216, 118, 118);
+            top:263px;
+            
+            font-family:red serifs;
+            font-size: medium large;
+        }
+        .booktitle{
+            color:rgb(239, 9, 170);
+            font-family: Garamond;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 40px;
+        
+        }
+        .id {
+            width: 100px;
+            color:rgb(1, 9, 9);
+            position: relative;
+            top:300px;
+            
+        }
+        .publisher{
+            color:rgb(248, 113, 9);
+            font-size: large;
+            font-family: algerian;
+            position: relative;
+            top:230px;
+            left:315px;
+        }
+        .general{
+            color:rgb(243, 248, 244);
+            font-size: large;
+            font-family: cambria;
+            position:relative;
+            top: 110px;
+            left:3px;
+        
+        }
+        .subtitle{
+            color:rgb(247, 247, 243);
+            font-family:courier;
+            font-size: large;
+            position: relative;
+            top: 70px;
+        }
+        .photo{
+            position: relative;
+            top: 297px;
+            left: 340px;
+            width: 70px;
+            height: 100px;
+            border-radius: 500px;
+
+        }
+        </style>
+        <title>BLACKHOLE</title>
+        </head>
+        <body>
+        <div class="bookpage">
+            <div class="insight">
+                SCIENCE & TECHNOLOGY
+            </div>
+            <div class="font">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="booktitle">
+                <h1> SCIENCE AND <br> NEURAL NETWORKS </h1></div>
+            <div class="subtitle"><b>
+                ORIGINAL EDITION
+                <br>
+                ONE AND ONLY PIECE 
+            </div>
+            <div class="subtitle">
+                 FROM BOOKS OF GEOFFREY HINTON</b>
+            </div>
+
+            <div class="photo">
+                <img src="ha.JPG" width="100" height="125" >
+            </div>
+            <div class="id">
+                <hr style="color:rgb(143, 177, 109)">
+            </div>
+            <div class="author">
+               <p><b> NAGALAPURAM HASIF </b></p>
+               <p><b>212223100036</b></p>
+            </div>
+            <div class="publisher">
+                NOVA PUBLISHERS
+            </div>
+            <div class="general">
+                    <b>INTO THE WORLD </b> 
+            </div>
+            <div class="general">
+                     <b> OF TECHNOLOGY</b>
+            </div>
+        </div>
+        </body>
+        
+</html>
+
+```
 
 ## OUTPUT:
 
+![alt text](<Screenshot 2024-05-06 153240.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
